@@ -1,12 +1,12 @@
 # [Ergo](https://ergoplatform.org/) JS Template - Entry Point to Ergo dApp Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It contains [ergo-ts](https://github.com/coinbarn/ergo-ts) and [ergo-lib](https://github.com/ergoplatform/sigma-rust) libraries as dependencies
-and some examples using these libraries.
+and some examples to present how to use these libraries.
 
 ## Goal
-The goal of this template is to bootstrap dApp development in JS for Ergo Blockchain.
+The goal of this template is to bootstrap JS dApp development for Ergo Blockchain.
 Ergo libraries, WASM support and several examples are already available in this template.
-These simple examples should help devs to get on board faster and start developing their ideas.
+These simple examples should help devs to get on board faster and start developing their ideas right away.
 
 Since the template is structurally identical to an empty React project created by CRA,
 devs can simply and without any ergo-related barriers clone the project and build on top of it.
