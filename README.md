@@ -1,6 +1,38 @@
-# Getting Started with Create React App
+# [Ergo](https://ergoplatform.org/) JS Template - Entry Point to Ergo dApp Development
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It contains [ergo-ts](https://github.com/coinbarn/ergo-ts) and [ergo-lib](https://github.com/ergoplatform/sigma-rust) libraries as dependencies
+and some examples using these libraries.
+
+## Goal
+The goal of this template is to bootstrap dApp development in JS for Ergo Blockchain.
+Ergo libraries, WASM support and several examples are already available in this template.
+These simple examples should help devs to get on board faster and start developing their ideas.
+
+Since the template is structurally identical to an empty React project created by CRA,
+devs can simply and without any ergo-related barriers clone the project and build on top of it.
+
+## Examples
+Available examples include:
+* Interacting with the explorer
+* Encoding different data types
+* Decoding fields (registers) of tokens
+
+These examples are simple intentionally to be newcomer-friendly. These should help you
+to understand how to use ergo libraries and start developing your dApp.
+
+## Deploy Your dApp
+To facilitate deploying your React app, docker file is already available for this template.
+
+Just build your docker image locally using:
+```bash
+docker build -t mydapp
+```
+Or configure [Dockerhub](https://hub.docker.com/) to build the image automatically for you when you push to a specific branch.
+
+Then you can run/deploy your dApp easily using:
+```bash
+docker run -p 80:80 mydapp
+```
 
 ## Available Scripts
 
@@ -29,17 +61,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
+## Learn React
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
